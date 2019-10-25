@@ -9,15 +9,13 @@ func main() {
 
 	fmt.Println("For loop that prints 1-4:")
 	for i <= 4 {
-		iter := fmt.Sprint(i, " ")
-		fmt.Print(iter)
+		fmt.Print(i, " ")
 		i = i + 1
 	}
 
 	fmt.Println("\n\nFor loop that prints 7-10:")
 	for j := 7; j <= 10; j++ {
-		iter := fmt.Sprint(j, " ")
-		fmt.Print(iter)
+		fmt.Print(j, " ")
 	}
 
 	fmt.Println("\n\nA potential infinite for-loop:")
@@ -32,7 +30,6 @@ func main() {
 			continue
 		}
 
-		iter := fmt.Sprint(n, " ")
-		fmt.Print(iter)
+		fmt.Print(n, " ")
 	}
 }
